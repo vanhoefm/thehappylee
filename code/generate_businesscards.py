@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 BUSINESSCARDS = [
     {"name": "creativepapers",
      "title": "Creative Papers",
