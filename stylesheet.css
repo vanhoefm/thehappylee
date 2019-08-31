@@ -40,7 +40,7 @@ a img {
 }
 
 hr {
-	display: none;
+	/*display: none;*/
 }
 
 sup {
@@ -63,6 +63,11 @@ img.center {
 	padding-top: 20px;
 }
 
+.header {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
 #primary_nav_wrap
 {
 	margin-bottom: 30px;
@@ -72,12 +77,12 @@ img.center {
 {
 	position:relative;
 	slist-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 920px;
+	margin: 0;
+	padding: 0;
+	width: 1280px;
 	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 18px;
+	padding-bottom: 14px;
 	margin-top: 10px;
 	margin-bottom: 30px;
 	background-color: #F4F4F4;
@@ -86,13 +91,13 @@ img.center {
 #primary_nav_wrap ul a
 {	
 	color: #000;
-	padding: 14px 20px 10px 20px;
+	padding: 14px 60px 10px 60px;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 300;
 	letter-spacing: 4pt; /* TODO: Proper unit? */
-	font-size: 12px;
+	font-size: 18px;
 }
 
 #primary_nav_wrap ul li
@@ -112,7 +117,7 @@ img.center {
 #primary_nav_wrap ul ul
 {
 	display:none;
-	width: 200px;
+	width: 220px;
 	position:absolute;
 	top:100%;
 	left:0;
@@ -126,14 +131,15 @@ img.center {
 {
 	float:none;
     display: block;
-    padding: 10px 0px;
 	text-align: left;
 }
 
 #primary_nav_wrap ul ul a
 {
 	line-height:120%;
-	padding-left: 15px
+	padding-left: 15px;
+	width: auto;
+	display: block;
 }
 
 #primary_nav_wrap ul ul ul
@@ -149,16 +155,116 @@ img.center {
 
 
 
+.welcometext p {
+	font-family: 'Cormorant', serif;
+	font-size: 20pt;
+	font-weight: 300;
+	margin-bottom: 40px;
+	text-align: center;
+	letter-spacing: 5px;
+	padding-bottom: 40px;
+	line-height: 150%;
+	font-style: italic;;
+
+	width: 720px;
+	margin: auto;
+}
+
+.servicetext p {
+	font-family: 'Cormorant', serif;
+	font-size: 16pt;
+	font-weight: 300;
+	margin-bottom: 40px;
+	text-align: center;
+	letter-spacing: 5px;
+	padding-bottom: 40px;
+	line-height: 150%;
+	font-style: italic;;
+
+	width: 900px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.offertext {
+	text-align: center;
+}
+
+.offertext p {
+	font-family: 'Cormorant', serif;
+	font-size: 20pt;
+	font-weight: 400;
+	margin-bottom: 40px;
+	letter-spacing: 3px;
+	padding-bottom: 40px;
+	line-height: 150%;
+	font-style: italic;;
+
+	width: 900px;
+	margin: auto;
+}
+
+.offer {
+	width: 200px;
+	display: inline-block;
+}
+
+.servicetext {
+	text-align: center;
+	margin-bottom: 40px;
+	width: 800px;
+	margin: auto;
+}
+
+.servicesimple {
+	font-family: 'Cormorant', serif;
+	font-size: 18pt;
+	font-weight: 400;
+	letter-spacing: 3px;
+	line-height: 150%;
+	font-style: italic;;
+
+	width: 350px;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.getintouch {
+	font-family: 'Encode Sans Condensed', sans-serif;
+	margin-top: 20px;
+	padding: 30px 0px 30px 30px;
+	letter-spacing: 2px;
+	font-size: 18pt;
+	background-color: #F4F4F4;
+	line-height: 1.5em;
+}
+
+.getintouch p {
+	text-transform: uppercase;
+	font-family: 'Cormorant', serif;
+	font-weight: 300;
+	letter-spacing: 4px;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-family: 'Cormorant', serif;
+	font-size: 60pt;
+	font-weight: 300;
+	letter-spacing: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+}
 
 h2 {
 	text-transform: uppercase;
 	font-family: 'Cormorant', serif;
-	font-size: 40pt;
-	font-weight: 100;
-	letter-spacing: 4px;
-	margin-bottom: 40px;
+	font-size: 35pt;
+	font-weight: 300;
+	letter-spacing: 30px;
 	margin-top: 60px;
-	margin-left: 35px;
+	margin-bottom: 10px;
+	text-align: center;
 }
 
 h3 {
@@ -191,7 +297,7 @@ h4 {
 }
 
 .container {
-	width: 920px;
+	width: 1280px;
 	margin: auto;
 }
 
@@ -205,7 +311,7 @@ h4 {
 .followme p {
 	font-family: 'Cormorant', serif;
 	font-weight: 300;
-	font-size: 16pt;
+	font-size: 28pt;
 	font-style: italic;
 	letter-spacing: 5px;
 }
@@ -234,7 +340,8 @@ h4 {
 }
 
 .abouttext {
-	margin-left: 120px;
+	margin-left: 420px;
+	margin-right: 80px;
 	margin-top: 50px;
 	margin-bottom: 150px;
 }
@@ -242,8 +349,8 @@ h4 {
 .abouttext p {
 	font-family: 'Encode Sans Condensed', sans-serif;
 	margin-bottom: 30px;
-    letter-spacing: 2px;
-    font-size: 20pt;
+	letter-spacing: 3px;
+	font-size: 20pt;
 	line-height: 1.5em;
 }
 
@@ -259,6 +366,12 @@ h4 {
 	margin-top: 20px;
 	margin-bottom: 30px;
 	letter-spacing: 2px;
+}
+
+.portfolio {
+	padding-left: 60px;
+	clear: left;
+	margin-top: 60px;
 }
 
 .portfoliotitle {
@@ -280,18 +393,81 @@ h4 {
 }
 
 .portfoliotext {
+	display: inline-block;
+	width: 700px;
+
 	font-family: 'Encode Sans Condensed', sans-serif;
-    margin-top: 20px;
-    padding: 30px 0px 60px 30px;
-    letter-spacing: 2px;
-    font-size: 18pt;
-	background-color: #F4F4F4;
+	margin-top: 00px;
+	padding: 10px 0px 00px 30px;
+	letter-spacing: 2px;
+	font-size: 16pt;
+	/*background-color: #F4F4F4;*/
 	line-height: 1.5em;
 }
 
 .portfoliotext p {
 	margin-top: 10px;
 	margin-bottom: 20px;
+}
+
+.service {
+	padding-top: 20px;
+}
+
+.service hr {
+	display: block; width: 85%;
+}
+
+.service p {
+	font-family: 'Cormorant', serif;
+	font-size: 16pt;
+	font-weight: 400;
+	margin-top: 30px;
+	padding-top: 40px;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	letter-spacing: 3px;
+	line-height: 100%;
+	font-style: italic;
+	text-transform: uppercase;
+
+	width: 900px;
+	margin: auto;
+}
+
+.service div {
+	margin-top: 30px;
+}
+
+.service div img {
+	margin-left: 20px;
+	width: 250px;
+}
+
+.service h3 {
+	margin-top: 50px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-weight: 450;
+}
+
+.service img {
+	width: 250px;
+	text-align: center;
+	padding-left: 32px;
+	display: inline-block;
+}
+
+.service-image {
+}
+
+.service-image p {
+	text-align: center;
+	font-family: 'Cormorant', serif;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	letter-spacing: 2px;
 }
 
 .illustrations {
@@ -425,11 +601,12 @@ footer{
 blockquote {
     margin-left: 20px;
     margin-right: 20px;
-	margin-bottom: 60px;
+	margin-bottom: 40px;
+	margin-top: 0px;
 }
 
 #pixlee_container {
-	height: 230px;
+	height: 320px;
 	overflow: hidden;
 	margin-bottom: 50px;
 }
@@ -439,7 +616,7 @@ blockquote {
 }
 
 .graphicsinfo {
-	margin-top: 40px;
+	margin-top: 10px;
 }
 
 .graphicsinfo p {
